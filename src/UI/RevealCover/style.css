@@ -1,0 +1,12 @@
+
+@media (max-width: 599px) {
+  .reveal-element{
+    border-radius: 0;
+  }
+}
+
+  @media (min-width: 600px) and (max-width: 1024px) {
+    .reveal-element{
+    border-radius: 0;
+    }
+  }

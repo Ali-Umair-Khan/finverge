@@ -1,0 +1,112 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alumni+Sans+Inline+One&family=Anton&family=Quicksand:wght@300;400&family=Satisfy&family=Sedgwick+Ave+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,300;0,400;0,500;1,100;1,400&display=swap');
+
+  :root {
+    /* --Background: #070606; */
+    --white: #fff;
+    --light-gray: #050376;
+    /* --link-color: rgb(221, 77, 10); */
+    --green: #2b892e;
+    --emerald: #48d64c;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    --font-family-1: 'Abril Fatface', serif;
+    --font-family-2: 'Alumni Sans Inline One', sans-serif;
+    --font-family-3: 'Oxygen', Quicksand;
+    --font-family-4: 'Quicksand', sans-serif;
+    --font-family-5: 'Satisfy', cursive;
+    --font-family-6: 'Sedgwick Ave Display', cursive;
+    --font-italic: 'Edu TAS Beginner', Oxygen;
+    --font-family-7:'Noto Sans Display', Oxygen;
+    --color-1 : rgba(5, 64, 159, 0.9);
+  }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    /* -webkit-font-smoothing: antialiased; */
+  }
+
+  /* html,
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: 'SF Pro Display', sans-serif;
+    /* background-color: var(--Background); */
+    /* color: var(--white); */
+    /* scroll-snap-type: y mandatory; */
+
+    /* &::-webkit-scrollbar {
+      width: 0.5rem;
+      border-radius: 0.5rem;
+      &-thumb {
+        /* background: var(--link-color); */
+        /* border-radius: 0.5rem; */
+      /* } */
+
+      /* &-track { */
+        /* background: var(--Background); */
+      /* } */
+    /* } */
+  /* } */ */ */
+
+  html {
+    font-size: 62.5%;
+    line-height: 1.6;
+    /* font-family: 'Quicksand', sans-serif; */
+    --color-blue: #29d;
+    --color-green: #50C878;
+    margin:0 auto;
+    vertical-align: baseline;
+    overflow-x: hidden;
+    max-width:140rem;
+}
+
+body {
+  font-family: var(--font-family-3);
+  color: --color-grey-dark-2;
+  color: --color-grey-light-1;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0 auto;
+  background-color: white;
+  overflow-x: hidden;
+}
+
+  a {
+    /* color: inherit; */
+    text-decoration: none;
+  }
+
+  .parallax {
+    overflow: hidden;
+    margin: 0;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .parallax .scroller {
+    display: flex;
+    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .scroller span {
+    display: block;
+    margin-right: 5rem;
+  }
+
+  .not_complete {
+    display: none;
+  }
+
+  .complete {
+  }
+

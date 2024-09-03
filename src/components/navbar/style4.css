@@ -1,0 +1,130 @@
+ .navbar__open {
+    display:none;
+    position:absolute;
+    top:2rem;
+    right:2rem;
+    color:black;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+.navbar__close  {
+    display:none;
+    position:absolute;
+    top:0rem;
+    right:0rem;
+    color:black;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+
+
+.navbar__close a, .navbar__open a {
+    font-size: 1.8rem;
+
+}
+.navbar__checkbox{
+    display:none;
+}
+
+.navbar{
+    display:flex;
+
+    /* grid-template-columns: repeat(auto-fit,minmax(40rem 1fr)); */
+    justify-content:space-between;
+    align-items: center;
+    gap:1rem;
+    padding:1rem;
+    flex-wrap:wrap;
+    max-width:99vw;
+    /* overflow:hidden; */
+}
+
+.navbar__menu {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    /* flex-wrap:wrap; */
+    gap:1rem;
+    /* width:100%; */
+    /* width:90vw; */
+}
+
+
+.navbar__logo{
+    width:4rem;
+    aspect-ratio:16/9;
+    background-size: cover;
+}
+
+.navbar__menu li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color:#101010;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 2s;
+    font-family:var(--font-family-3);
+    color:rgba(5, 64, 159, 0.9);
+}
+
+/* .navbar__menu li a:nth-child(4){
+    background-color: #5679ec;
+    color:#000;
+} */
+
+
+.navbar__menu li a:hover {
+    border-bottom-color: #5679ec;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+ @media (max-width:76rem){
+    .navbar__menu{
+        display:flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding:2rem;
+        gap:1rem;
+        max-width:80vw;
+        height:100vh;
+        position:fixed;
+        top:0;
+        right:100%;
+        z-index:200;
+        background-color: rgba(5, 64, 159, 0.9);
+        color:black;
+        /* margin-top:2rem; */
+        /* margin: 0rem auto; */
+    }
+
+    .navbar__menu > * {
+        padding:2rem;
+    }
+    .navbar__close, .navbar__open {
+        display:block;
+    }
+    #check:checked ~ .navbar__menu {
+        right:0;
+    }
+    .navbar__menu li a{
+        margin-top:3rem;
+        color:#ffffff;
+    }
+
+    /* .navbar__menu li:nth-child(4){
+       padding:0.5rem 1rem;
+       
+    } */
+
+    
+    
+    .navbar__menu li {
+        /* margin-top: 1rem; */
+    }
+} 

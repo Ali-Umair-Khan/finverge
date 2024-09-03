@@ -1,0 +1,114 @@
+.navbar__close, .navbar__open {
+    display:none;
+    position:absolute;
+    top:2rem;
+    right:2rem;
+}
+
+.navbar__close a, .navbar__open a {
+    font-size: 1.8rem;
+
+}
+.navbar__checkbox{
+    display:none;
+}
+
+.navbar{
+    display:flex;
+
+    /* grid-template-columns: repeat(auto-fit,minmax(40rem 1fr)); */
+    justify-content:space-between;
+    align-items: center;
+    gap:1rem;
+    padding:1rem;
+    /* width:100%; */
+    /* overflow:hidden; */
+}
+
+.navbar__menu {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    gap:1rem;
+}
+
+
+.navbar__logo{
+    /* width:2rem; */
+    /* height:2rem; */
+}
+.navbar__logo img {
+    /* width:90%; */
+    aspect-ratio:16/9;
+}
+.navbar__logo img {
+    aspect-ratio: 16/9;
+    background-size: cover;
+}
+
+
+.navbar__menu li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color:#101010;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 2s;
+    font-family:Quicksand;
+}
+
+/* .navbar__menu li a:nth-child(4){
+    background-color: #5679ec;
+    color:#000;
+} */
+
+
+.navbar__menu li a:hover {
+    border-bottom-color: #5679ec;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+@media (max-width:76rem){
+    .navbar__menu{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:1rem;
+        width:80%;
+        /* padding:1rem 0rem; */
+        height:100vh;
+        position:fixed;
+        top:0;
+        right:100%;
+        z-index:200;
+        background-color: rgb(23, 23, 25);
+        margin-top:2rem;
+        margin: 2rem auto;
+    }
+    .navbar__close, .navbar__open {
+        display:block;
+    }
+    #check:checked ~ .navbar__menu {
+        right:0;
+    }
+    .navbar__menu li a{
+        /* padding: 2.5rem 1.2rem 1rem 1rem; */
+        margin-top:3rem;
+        color:#ffffff;
+    }
+
+    .navbar__menu li:nth-child(4){
+       padding:0.5rem 1rem;
+       
+    }
+
+    
+    
+    .navbar__menu li {
+        margin-top: 1rem;
+    }
+}
