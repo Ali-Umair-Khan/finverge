@@ -1,7 +1,8 @@
+/* eslint-disable @next/next/no-img-element */
 'use client'
 // import Link from 'next/link';
-import { Link } from "react-scroll";
-// import {Link as NextLink} from 'next/link';
+// import { Link } from "react-scroll";
+import Link from 'next/link';
 import './style4.scss';
 // import './navbar.scss';
 import AnimatedLink from '@/UI/AnimatedLink'
@@ -72,7 +73,7 @@ const ResponsiveMenu = () => {
                       </Link>
                     </li> */}
                     <li onClick={handleMenuItemClick} className='navbar__menu-item'>
-                      <Link to='work'  smooth={true} duration={1000} passhref='true'>
+                      <Link href='/' passHref={true}>
                           <a onClick={handleMenuItemClick} className='styled-link'><AnimatedLink title='Solutions'/> <FontAwesomeIcon icon={faHurricane} style={{ fontSize: '1.5rem', marginLeft:'0.5rem'}} /></a>
                           <div className='dropdown-menu'>
                            {solution.map((link, i) => (
@@ -82,7 +83,7 @@ const ResponsiveMenu = () => {
                       </Link>
                     </li>
                     <li onClick={handleMenuItemClick} className='navbar__menu-item'>
-                      <Link to='services'  smooth={true} duration={1000} passhref='true'>
+                      <Link href='/' passHref={true}>
                           <a onClick={handleMenuItemClick} className='styled-link'><AnimatedLink title='Technology'/> <FontAwesomeIcon icon={faWrench} style={{ fontSize: '1.5rem', marginLeft:'0.5rem'}} /></a>
                           <div className='dropdown-menu'>
                             {technology.map((link, i) => (
@@ -92,7 +93,7 @@ const ResponsiveMenu = () => {
                       </Link>
                     </li>
                     <li onClick={handleMenuItemClick} className='navbar__menu-item'>
-                      <Link to='charging' smooth={true} duration={1000} passhref>
+                      <Link href='/' passHref={true}>
                           <a onClick={handleMenuItemClick} className='styled-link'><AnimatedLink title='Company'/> <FontAwesomeIcon icon={faDollarSign} style={{ fontSize: '1.5rem', marginLeft:'0.5rem'}} /></a>
                           <div className='dropdown-menu'>
                           {company.map((link, i) => (

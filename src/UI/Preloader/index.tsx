@@ -19,10 +19,16 @@ const Preloader = ({
 })=> {
   const word = ['F', 'i', 'n', 'v','e', 'r', 'g', 'e'];
 
-  const spans = useRef<any>([]); // Create a ref to store the span elements
-  const imageRef = useRef(null);
-  const secondOverlayRef = useRef(null);
-  const wrapperRef = useRef(null);
+  // const spans = useRef<any>([]); // Create a ref to store the span elements
+  // const imageRef = useRef(null);
+  // const secondOverlayRef = useRef(null);
+  // const wrapperRef = useRef(null);
+
+  const spans = useRef<(HTMLDivElement | null)[]>([]); // Define the ref with the correct type
+  const imageRef = useRef<HTMLDivElement | null>(null);
+  const secondOverlayRef = useRef<HTMLDivElement | null>(null);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+
 
   useEffect(() => {
     
@@ -114,7 +120,7 @@ const Preloader = ({
             {word.map((t, i) => (
               <div
                 key={i}
-                ref={(element) => (spans.current[i] = element)} // Assign ref to each span
+                ref={(element) => {spans.current[i] = element}} // Assign ref to each span
               >
                 {t}
               </div>

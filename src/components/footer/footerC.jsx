@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import './footer.scss';
 
@@ -5,7 +6,7 @@ import './footer.scss';
     return(
         <div className='footer'>
             <div className='footer__image'>
-                <img src='finverge.png' />
+                <img src='finverge.png' alt='finverge' />
             </div>
             <div className='footer__details'>
                 <div className='footer__details-qr'>
@@ -37,14 +38,6 @@ import './footer.scss';
                     <p>Post a Project</p>
                     <p>Promote Your Work</p>
                 </div>
-                {/* <div className='footer__details-links'> */}
-                    {/* <Link href='/'>Follow us on Twitter</Link> */}
-                    {/* <Link href='/'>Follow us on Facebook</Link> */}
-                    {/* <Link href='/'>Follow us on Instagram</Link> */}
-                    {/* <Link href='/'>Follow us on Pinterest</Link> */}
-                    {/* <Link href='/'>Follow us on Flipboard</Link>     */}
-                    {/* <Link href='/'>Email us.</Link> */}
-                {/* </div> */}
             </div>
             <div className='footer__copyright'>
                 <p>&copy; 2023 Finverge Ventures, Inc. All rights reserved.</p>

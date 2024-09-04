@@ -1,14 +1,14 @@
-// 'use client';
-// import { motion } from 'framer-motion';
-// import { styled } from 'styled-components';
+   
+   
+   
 
-// export const Div = styled(motion.div)`
-//   position: relative;
-//   cursor: pointer;
-//   display: flex;
-//   flex-direction: column;
-//   overflow: hidden;
-// `;
+   
+   
+   
+   
+   
+   
+   
 
 .Div-ani {
   position: relative;
@@ -19,13 +19,13 @@
   overflow: hidden;
   border:none;
   outline:none;
-  // padding:0;
-  // margin:0;
-  // margin-bottom:4rem;
-  // height:4rem;
+     
+     
+     
+     
   @media(max-width:76rem){
     white-space: break-spaces;
-    // align-items: flex-start;
+       
   }
   .absContainer-ani{
   position: absolute;
@@ -35,28 +35,28 @@
   }
 }
  
-// Type: A motion.div element styled using styled-components.
-// Purpose:
-// position: relative: Positions the element relative to its normal position. 
-// This allows child elements with position: absolute to be positioned relative to this element.
-// cursor: pointer: Changes the cursor to a pointer when hovering over the element, indicating that it's clickable.
-// display: flex; flex-direction: column: Arranges the children of this div in a vertical stack (column layout).
-// overflow: hidden: Ensures that any content that overflows the bounds of this div will be hidden.
-//  This is particularly useful for animations where content might move in or out of the visible area.
+   
+   
+   
+   
+   
+   
+   
+   
 
-// export const Word = styled(motion.span)`
-//   white-space: nowrap;
-//   position: relative;
-// `;
+   
+   
+   
+   
 
 .word-ani{
-  // white-space: wrap;
+     
   position: relative;
   text-align:center;
   border:none;
   outline: none;
-  // padding-bottom:2rem;
-  // overflow:hidden;
+     
+     
   .Span-ani{
   position: relative;
   display: inline-block;
@@ -66,7 +66,7 @@
   font-weight: 400;
   border:none;
   outline: none;
-  // text-align:center;
+     
 
     @media (max-width: 768px) {
       color: var(--Background);
@@ -75,46 +75,46 @@
     }
   }
 }
-// Type: A motion.span element styled using styled-components.
-// Purpose:
-// white-space: nowrap: Prevents the text from wrapping onto the next line. 
-// The text will stay on a single line, even if it's longer than the container.
-// position: relative: Positions the element relative to its normal position, 
-// allowing for absolute positioning of its children or nearby elements.
+   
+   
+   
+   
+   
+   
 
-// export const Span = styled(motion.span)`
-//   position: relative;
-//   display: inline-block;
-//   white-space: nowrap;
-//   color: var(--link-color);
-//   font-size: 1rem;
-//   font-weight: 400;
+   
+   
+   
+   
+   
+   
+   
 
-//   @media (max-width: 768px) {
-//     color: var(--Background);
-//     font-size: 1.5rem;
-//     font-weight: 500;
-//   }
-// `;
+   
+   
+   
+   
+   
+   
 
-// Type: A motion.span element styled using styled-components.
-// Purpose:
-// position: relative: Positions the element relative to its normal position, 
-// which allows for flexible control over its position within its parent element.
-// display: inline-block: Ensures the span behaves like an inline element but allows for padding, margins, and width/height to be applied.
-// white-space: nowrap: Prevents the text within the span from wrapping onto multiple lines.
-// color, font-size, font-weight: Controls the text color, size, and weight. These styles define the appearance of the text.
-// Responsive Styling:
-// The media query (@media (max-width: 768px)) changes the text color, size, and weight when the viewport width is 768 pixels or less.
-//  This is typically done to adjust for mobile devices.
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
 
-// export const AbsoluteContainer = styled.div`
-//   position: absolute;
-//   top: 0;
-// `;
+   
+   
+   
+   
 
-// Type: A div element styled using styled-components.
-// Purpose:
-// position: absolute; top: 0;: This positions the element absolutely within its nearest positioned ancestor 
-// (which would usually be an element with position: relative).
-//  The element is placed at the top of its container.
+   
+   
+   
+   
+   

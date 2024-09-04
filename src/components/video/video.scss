@@ -11,16 +11,16 @@
     max-width:99vw;
     margin:0rem 0rem;
     overflow:hidden;
-    /* margin: 0 auto; */
-    /* height:100vh; */
-    /* text-align: center; */
+       
+       
+       
     @media (max-width:76rem){
-        /* text-align: left; */
+           
         
-        /* align-items:flex-start; */
+           
         gap:1rem;
         max-width:99vw;
-        /* height:100vh; */
+           
     }
     .maskH1{
         overflow:hidden;
@@ -28,15 +28,15 @@
 
         h1 {
             font-size:4rem;
-            // font-family: var(--font-family-3);
+               
             color:white;
             max-width:99vw;
             font-weight:600;
-            // overflow:hidden;
-            /* text-align:center; */
+               
+               
             @media (max-width:76rem){
-                /* text-align:left; */
-                /* align-self:start; */
+                   
+                   
                 max-width:95vw;
             }
             
@@ -55,6 +55,7 @@
         img {
             object-fit: cover;
             border-radius: 0.75rem;
+            height:80vh;
         }
 
         @media (max-width: 768px) {
@@ -69,101 +70,101 @@
     .hero__video-img{
         max-width:60vw;
         background-size:cover;
-        aspect-ratio:16/9;
+        aspect-ratio:16;
         margin: 0 auto;
         padding: 1rem 1rem;
-        // border-radius: 20%;
+        height:auto;
         img{
             border-radius: 20px;
             object-fit:cover;
             object-position: 40%;
         }
         @media (max-width:76rem){
-                max-width:80vw;
-                // object-fit:fill;
+                max-width:90vw;
+                   
         }
     }
     .hero__video-btn{
         padding:1rem 1.5rem;
         color: white;
         background-color: var(--color-1);
-        /* margin: 0 auto; */
+           
         border-radius:5px;
         border: 2px solid transparent;
-        /* margin-top:0.5rem; */
+           
         font-size:1.4rem;
         max-width:90vw;
         font-size:1.6rem;
-        // font-family:var(--font-family-3);
-        /* text-align:center; */
+           
+           
         @media (max-width:76rem){
-            /* text-align:left; */
-            /* align-self:start; */
+               
+               
             max-width:95vw;
-            /* margin:1rem; */
+               
         }
         
     }
 }
 
 
-// .hero__video-vid{
-//     max-width:80vw;
-// }
+   
+   
+   
 
-// .hero__video h1 {
-//     /* text-align:left; */
-//     /* align-self:start; */
-//     max-width:95vw;
-// }
-// .hero__video-btn{
-//     /* text-align:left; */
-//     /* align-self:start; */
-//     max-width:95vw;
-//     /* margin:1rem; */
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
     
-// }
-//////////////////////////
-/// 
-/// 
-/// 
-/// 
-/// 
-/// 
-/* .hero__video img {
-    /* width:95vw; */
-    /* height: auto; */
-    /* text-align:center; */
-    /* height:auto; */
-    /* height:70vh; */
-    /* max-width:90vw; */
-    /* border-radius:3px; */
-/* }  */
+   
+   
+   
+   
+   
+   
+   
+   
+   
+       
+       
+       
+       
+       
+       
+       
+   
 
 
 
 .hero__video h1 {
     font-size:4rem;
-    // font-family: var(--font-family-3);
+       
     color:white;
     max-width:99vw;
     font-weight:600;
-    /* text-align:center; */
+       
 }
 
 .hero__video-btn{
     padding:1rem 1.5rem;
     color: white;
     background-color: var(--color-1);
-    /* margin: 0 auto; */
+       
     border-radius:5px;
     border: 2px solid transparent;
-    /* margin-top:0.5rem; */
+       
     font-size:1.4rem;
     max-width:90vw;
     font-size:1.6rem;
 
-    // font-family:var(--font-family-3);
+       
 
-    /* text-align:center; */
+       
 }

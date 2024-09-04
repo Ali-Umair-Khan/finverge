@@ -43,7 +43,6 @@
 html {
     font-size: 62.5%;
     line-height: 1.6;
-    /* font-family: 'Quicksand', sans-serif; */
     --color-blue: #29d;
     --color-green: #50C878;
     margin:0 auto;
@@ -74,7 +73,7 @@ img{
 
 .container {
   display: grid;
-  /* grid-template-columns: repeat(auto-fit, min(50rem,100%)); */
+  grid-template-columns: repeat(auto-fit, min(50rem,100%));
   place-items:center;
   place-content:center;
   width: 150rem;

@@ -14,7 +14,6 @@
     width:100%;
     cursor:pointer;
     max-width:98vw;
-    /* width: */
 }
 .hero__faqs-span {
     position: absolute;
@@ -30,16 +29,10 @@
     font-size: 2.2rem;
     text-align:left;
     max-width:85vw;
-    /* width:99 */
-    // font-family:var(--font-family-3);
     font-weight:300;
     margin:0;
     width:100%;
-    max-width:99vw;
-
-    
-    /* margin:0 auto; */
-    
+    max-width:99vw;    
 }
 
 .hero__faqs-question:nth-child(2){
@@ -51,27 +44,15 @@
     font-size:1.6rem;
         font-weight:300;
         text-align:left;
-    /* margin:0 auto; */
-    // font-family:var(--font-family-3);
-    margin:0;
-
-    
-    /* text-align:center; */
+        margin:0;
 }
 
 .faq{
     padding-bottom: 1rem;
-    /* border-bottom: 2px solid rgba(46, 45, 45, 0.9); */
     width:100%;
     max-width: 99vw;
     padding:1rem 1.2rem;
     background-color: black;
-    /* text-align:center; */
-    /* background-color:rgb(170, 167, 167, 0.4); */
-    /* margin: 0 auto; */
-    /* display:flex; */
-    /* flex-direction:column; */
-    /* align-items: */
     .hero__faqs{
             display:flex;
             flex-direction: column;
@@ -90,8 +71,6 @@
             cursor:pointer;
             max-width:98vw;
             transition: background-color 1s ease-in;
-            // transition: color ease-in;
-            /* width: */
         &.active{
             background-color: rgb(47, 67, 158);
             color:black;
@@ -108,19 +87,13 @@
             font-size: 2.2rem;
             text-align:left;
             max-width:85vw;
-            /* width:99 */
-            // font-family:var(--font-family-3);
             font-weight:300;
             margin:0;
             width:100%;
             max-width:99vw;
             &:nth-child(2){
                 width:99%;
-            }
-        
-            
-            /* margin:0 auto; */
-            
+            }            
         }
         .hero__faqs-span {
             position: absolute;
@@ -135,14 +108,9 @@
         
         .hero__faqs-answer{
             font-size:1.6rem;
-                font-weight:300;
-                text-align:left;
-            /* margin:0 auto; */
-            // font-family:var(--font-family-3);
+            font-weight:300;
+            text-align:left;
             margin:0;
-        
-            
-            /* text-align:center; */
         }
         
         

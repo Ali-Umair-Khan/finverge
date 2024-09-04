@@ -7,10 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,200;0,300;0,400;0,500;1,100;1,400&display=swap');
 
   :root {
-    /* --Background: #070606; */
     --white: #fff;
     --light-gray: #050376;
-    /* --link-color: rgb(221, 77, 10); */
     --green: #2b892e;
     --emerald: #48d64c;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -29,31 +27,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* -webkit-font-smoothing: antialiased; */
   }
 
-  /* html,
-  body {
-    max-width: 100vw;
-    overflow-x: hidden;
-    font-family: 'SF Pro Display', sans-serif;
-    /* background-color: var(--Background); */
-    /* color: var(--white); */
-    /* scroll-snap-type: y mandatory; */
-
-    /* &::-webkit-scrollbar {
-      width: 0.5rem;
-      border-radius: 0.5rem;
-      &-thumb {
-        /* background: var(--link-color); */
-        /* border-radius: 0.5rem; */
-      /* } */
-
-      /* &-track { */
-        /* background: var(--Background); */
-      /* } */
-    /* } */
-  /* } */ */ */
 
   html {
     font-size: 62.5%;
@@ -79,7 +54,6 @@ body {
 }
 
   a {
-    /* color: inherit; */
     text-decoration: none;
   }
 
@@ -105,8 +79,5 @@ body {
 
   .not_complete {
     display: none;
-  }
-
-  .complete {
   }
 

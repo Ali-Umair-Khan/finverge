@@ -7,7 +7,7 @@
     display: flex;
     flex-wrap: nowrap;
     background-color: black;
-    /* height:4rem; */
+       
   }
 
   .parallax-xe .scroller-xe {
@@ -15,20 +15,20 @@
     white-space: nowrap;
     display: flex;
     flex-wrap: nowrap;
-    /* height:20rem; */
-    /* width:40rem; */
+       
+       
   }
 
   .scroller-xe span {
     display: inline-block;
     margin-right: 5rem;
-    /* background-color: black; */
-    /* font-size:9.2rem; */
-    /* color:black; */
+       
+       
+       
     padding: 2rem;
-    /* margin:2rem; */
+       
     width:50vw;
-    /* height:20rem; */
+       
     @media (max-width:76rem){
       width:99vw;
       height:auto;
@@ -36,9 +36,9 @@
     }
   }
 
-  /* .scroller span * { */
-    /* height:auto; */
-    /* width:40rem; */
-    /* object-fit:cover; */
-    /* font-size:4rem; */
-  /* } */
+     
+       
+       
+       
+       
+     

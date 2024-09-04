@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 // This React component, named Featured, is a part of a Next.js application. 
 // It uses Framer Motion for animations and the Next.js Image component to efficiently display images.
 //  The component is designed to display a featured section on a webpage, including a banner image and a parallax effect 

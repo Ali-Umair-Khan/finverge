@@ -1,16 +1,16 @@
 .hero__pricing{
     text-align:center;
-    // font-family: var(--font-family-3);
+       
     padding:1.5rem 2rem;
     font-family:var(--font-family-4);
     background-color: black;
     @media (max-width:76rem){
-            /* text-align: left; */
+               
     }
     .pricing__maskText{
         overflow:hidden;
         color:white;
-        // padding:1rem;
+           
         margin:1rem;
         font-size:2rem;
     }
@@ -19,7 +19,7 @@
         margin:1rem;
         font-size: 6rem;
         font-weight:800;
-        // font-family:var(--font-family-7);
+           
         color:rgba(5, 64, 159, 0.9);
     }
     h3 {
@@ -30,7 +30,7 @@
         font-weight:300;
         padding:1rem 1.2rem;
         margin:0.5rem;
-        /* max-width:80vw; */
+           
         @media (max-width:76rem){
             max-width:80vw;
         }
@@ -42,7 +42,7 @@
         align-items: center;
         gap:3rem;
         padding:1rem;
-        /* margin:4rem; */
+           
         @media (max-width:76rem){
             flex-direction: column;
             align-items: center;
@@ -50,18 +50,18 @@
 
         .hero__pricing-details-c{
             width:30vw;
-            // max-width:35vw;
+               
             &:first-child{
             background-color: rgb(7, 152, 184);
             color:white;
             border-radius:10px;
-            /* box-shadow: 1px 2px 2px rgb(212, 211, 211); */
+               
             }
 
             &:nth-child(2){
                 background-color: rgb(246, 246, 90);
                 color:black;
-                /* box-shadow: 1px 2px 2px 2px rgb(200, 199, 199); */
+                   
                 border-radius:10px;
             
             }
@@ -90,7 +90,7 @@
     margin:1rem;
     font-size: 6rem;
     font-weight:800;
-    // font-family:var(--font-family-7);
+       
     color:rgba(5, 64, 159, 0.9);
 }
 
@@ -102,7 +102,7 @@
     font-weight:300;
     padding:1rem 1.2rem;
     margin:0.5rem;
-    /* max-width:80vw; */
+       
 }
 
 .hero__pricing_details{
@@ -111,36 +111,36 @@
     align-items: center;
     gap:3rem;
     padding:1rem;
-    /* margin:4rem; */
+       
 }
 
 .hero__pricing_details .hero__pricing-details-c:first-child{
     background-color: black;
     color:white;
     border-radius:10px;
-    /* box-shadow: 1px 2px 2px rgb(212, 211, 211); */
+       
 
 }
 
 .hero__pricing_details .hero__pricing-details-c:nth-child(2){
     background-color: rgba(0,0,0, 0.04);
     color:black;
-    /* box-shadow: 1px 2px 2px 2px rgb(200, 199, 199); */
+       
     border-radius:10px;
 
 }
 
 .pricing__cards{
-    /* padding:1rem 2rem; */
-    /* margin:1rem; */
+       
+       
     border: 2px solid transparent;
     min-height:80vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    /* width:40rem; */
-    // width:80vw;
+       
+       
     width:100%;
     border-radius: 8px;
     padding:1.5rem 1rem;
@@ -148,8 +148,8 @@
     h1{
         font-size: 3rem;
         font-weight:400;
-        /* font-style: bold; */
-        // font-family: var(--font-family-3);
+           
+           
         margin: 0 1.2rem;
         text-size-adjust: 0.5;
     }
@@ -157,7 +157,7 @@
     h2{
         font-size: 2.5rem;
         font-weight:700;
-        /* font-style: italic; */
+           
         margin: 0 1.2rem;
         padding-bottom: 2rem;
         border-bottom: 0.3px solid #abaaaa;
@@ -169,7 +169,7 @@
     h3{
         font-size: 1.9rem;
         font-weight:100;
-        /* font-style: italic; */
+           
         text-align: left;
         align-self: flex-start;
         margin: 0 1.2rem;
@@ -180,17 +180,17 @@
     p{
         font-size: 2rem;
         font-weight:300;
-        /* font-style: italic; */
+           
         margin: 0 1.2rem;
-        // font-family:var(--font-family-3);
+           
         text-align:left;
-        /* width:80vw; */
+           
     }
      
     button{
         padding:1rem 1.5rem;
-        /* margin:1rem; */
-        // font-family: var(--font-family-3);
+           
+           
         font-size:1.6rem;
         background-color: rgba(5, 64, 159, 0.9);    ;
         color:white;
@@ -198,17 +198,17 @@
         border:2px solid transparent;
         align-self: center;
         width:90%;
-        /* margin: 0 3rem; */
+           
     } 
 }
-////////////
-/// 
-/// 
-/// 
-/// 
-/// 
-/// 
-/// 
+   
+   
+   
+   
+   
+   
+   
+   
 
 .hero__pricing-details-c:hover{
     animation: bounce 5s infinite alternate;
@@ -223,8 +223,8 @@
 .pricing__cards h1{
     font-size: 3rem;
     font-weight:400;
-    /* font-style: bold; */
-    // font-family: var(--font-family-3);
+       
+       
     margin: 0 1.2rem;
     text-size-adjust: 0.5;
 }
@@ -234,7 +234,7 @@
 .pricing__cards h2{
     font-size: 2.5rem;
     font-weight:700;
-    /* font-style: italic; */
+       
     margin: 0 1.2rem;
     padding-bottom: 2rem;
     border-bottom: 0.3px solid #abaaaa;
@@ -250,7 +250,7 @@
 .pricing__cards h3{
     font-size: 1.9rem;
     font-weight:100;
-    /* font-style: italic; */
+       
     text-align: left;
     align-self: flex-start;
     margin: 0 1.2rem;
@@ -261,17 +261,17 @@
 .pricing__cards p{
     font-size: 2rem;
     font-weight:300;
-    /* font-style: italic; */
+       
     margin: 0 1.2rem;
-    // font-family:var(--font-family-3);
+       
     text-align:left;
 
-    /* width:80vw; */
+       
 }
 .pricing__cards button{
     padding:1rem 1.5rem;
-    /* margin:1rem; */
-    // font-family: var(--font-family-3);
+       
+       
     font-size:1.6rem;
     background-color: rgba(5, 64, 159, 0.9);    ;
     color:white;
@@ -279,23 +279,23 @@
     border:2px solid transparent;
     align-self: center;
     width:90%;
-    /* margin: 0 3rem; */
+       
 }
 
 
-// @media (max-width:76rem)
-// smaller screen sizes 
-// .hero__pricing{
-    /* text-align: left; */
-// }
+   
+   
+   
+       
+   
 
-// .hero__pricing h3{
-    /* text-align: left; */
-    // max-width:80vw;
-// }
-// .hero__pricing_details{
-    // flex-direction: column;
-// }
-// .hero__pricing_details{
-    // align-items: center;
-// }
+   
+       
+       
+   
+   
+       
+   
+   
+       
+   
