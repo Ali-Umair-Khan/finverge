@@ -17,7 +17,7 @@ const Hero = () => {
   return (
     <div className='hero__section'>
                     <div className='hero__section-h1'>
-                        <MaskText phrases="A powerful solution to grow your startup. Fast!" tag='h1'/>
+                        <MaskText phrases="A powerful potion to grow your startup. Fast!" tag='h1'/>
                     </div>
                     {/* <h1>A powerful solution to grow your startup. Fast!</h1> */}
                     <MaskText phrases="Organize, collaborate, and track progress seamlessly with our
