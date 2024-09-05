@@ -5,6 +5,7 @@ import Companies from '@/components/Companies/companies';
 import Video from '@/components/video/video';
 import Pricing from '@/components/pricing/pricing'
 import Faq from '@/components/faq/faq';
+import './globals.css';
 export default function Home() {
   return (
     <main>

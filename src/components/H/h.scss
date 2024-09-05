@@ -18,14 +18,14 @@
         justify-content: flex-start;
         align-items: center;
         gap:1rem;
-        font-family: var(--font-family-3);
+        // font-family: var(--font-family-3);
         
 
         h3{
             font-size:3rem;
             color:rgb(33, 31, 31);
             font-weight:700;
-            font-family: var(--font-family-2);
+            // font-family: var(--font-family-2);
             font-style:normal;
         }
     }  
@@ -42,10 +42,10 @@
     text-align:center;
     /* margin: 0 auto; */
     overflow-x: none;
-    font-family:var(--font-family-4);
+    // font-family:var(--font-family-3);
     background-color:black;
-    color:white;    @media (max-width:76rem){
-    }
+    color:white;   
+    
     .hero__section-h1{
         overflow:hidden;
     }
