@@ -7,9 +7,9 @@ import Pricing from '@/components/pricing/pricing'
 import Faq from '@/components/faq/faq';
 import './globals.css';
 
-import {Roboto} from '@next/font/google';
+import {Montserrat} from '@next/font/google';
 
-const roboto = Roboto({
+const montserrat= Montserrat({
   subsets:['latin'],
     display: 'swap',
   weight:['400','700'],
@@ -17,7 +17,7 @@ const roboto = Roboto({
 
 export default function Home() {
   return (
-    <main className={roboto.className}>
+    <main className={montserrat.className}>
       <Hero/>
       <Featured/>
       <Companies/>
