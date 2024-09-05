@@ -13,6 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@motionone/utils": "^10.18.0",
+    "@next/font": "^14.2.8",
     "@studio-freight/react-lenis": "^0.0.47",
     "@types/node": "22.2.0",
     "@types/react": "18.3.3",

@@ -18,14 +18,12 @@
         justify-content: flex-start;
         align-items: center;
         gap:1rem;
-        // font-family: var(--font-family-3);
         
 
         h3{
             font-size:3rem;
             color:rgb(33, 31, 31);
             font-weight:700;
-            // font-family: var(--font-family-2);
             font-style:normal;
         }
     }  
@@ -40,9 +38,7 @@
 .hero__section{
     max-width:99vw;
     text-align:center;
-    /* margin: 0 auto; */
     overflow-x: none;
-    // font-family:var(--font-family-3);
     background-color:black;
     color:white;   
     
@@ -71,7 +67,6 @@
     font-size: 2rem;
     color:grey;
     font-style: italic;
-    font-family:var(--font-italic);
     font-weight:300;
     color:rgb(124, 124, 155);
     }

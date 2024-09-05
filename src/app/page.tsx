@@ -6,9 +6,17 @@ import Video from '@/components/video/video';
 import Pricing from '@/components/pricing/pricing'
 import Faq from '@/components/faq/faq';
 import './globals.css';
+
+import {Roboto} from '@next/font/google';
+
+const roboto = Roboto({
+  subsets:['latin'],
+  weight:['400','700'],
+})
+
 export default function Home() {
   return (
-    <main>
+    <main className={roboto.className}>
       <Hero/>
       <Featured/>
       <Companies/>
