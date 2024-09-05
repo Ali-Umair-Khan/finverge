@@ -33,7 +33,6 @@
   html {
     font-size: 62.5%;
     line-height: 1.6;
-    /* font-family: 'Quicksand', sans-serif; */
     --color-blue: #29d;
     --color-green: #50C878;
     margin:0 auto;
@@ -43,7 +42,6 @@
 }
 
 body {
-  font-family: var(--font-family-3);
   color: --color-grey-dark-2;
   color: --color-grey-light-1;
   font-weight: 300;
