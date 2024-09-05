@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import Layout from '@/UI/Layout';
 import './globals.css';
 import type { Metadata } from 'next';
