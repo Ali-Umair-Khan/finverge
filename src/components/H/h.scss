@@ -44,6 +44,12 @@
     
     .hero__section-h1{
         overflow:hidden;
+        h1{
+            font-size:clamp(2rem, 8vw,6rem);
+        }
+        @media  (max-width:50rem){
+            font-size:1.2rem;
+        }
     }
 
     .hero__cards{
