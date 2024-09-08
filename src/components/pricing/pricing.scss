@@ -157,7 +157,6 @@
     h2{
         font-size: 2.5rem;
         font-weight:700;
-           
         margin: 0 1.2rem;
         padding-bottom: 2rem;
         border-bottom: 0.3px solid #abaaaa;
@@ -166,14 +165,21 @@
         color:rgba(5, 64, 159, 0.9);
     }
     
-    h3{
-        font-size: 1.9rem;
-        font-weight:100;
-           
-        text-align: left;
-        align-self: flex-start;
-        margin: 0 1.2rem;
-        color:black;
+    .qualities{ 
+        // text-align:start;
+        justify-content:flex-start;
+        h3{
+            font-size: clamp(0.5rem,2vw,1.4rem);
+            font-weight:100;
+            text-align: start;
+            // align-self: flex-start;
+            margin: 0rem 0.3rem;
+            color:rgb(21, 224, 45);
+            @media (max-width:40rem){
+                font-size:0.3rem;
+                color:blue;
+            }
+        }
     }
     
     
@@ -220,67 +226,78 @@
     }
 }
 
-.pricing__cards h1{
-    font-size: 3rem;
-    font-weight:400;
+// .pricing__cards h1{
+//     font-size: 3rem;
+//     font-weight:400;
        
        
-    margin: 0 1.2rem;
-    text-size-adjust: 0.5;
-}
+//     margin: 0 1.2rem;
+//     text-size-adjust: 0.5;
+// }
 
 
 
-.pricing__cards h2{
-    font-size: 2.5rem;
-    font-weight:700;
+// .pricing__cards h2{
+//     font-size: 2.5rem;
+//     font-weight:700;
        
-    margin: 0 1.2rem;
-    padding-bottom: 2rem;
-    border-bottom: 0.3px solid #abaaaa;
-    width:90%;
-    text-align:left;
-    color:rgba(5, 64, 159, 0.9);
+//     margin: 0 1.2rem;
+//     padding-bottom: 2rem;
+//     border-bottom: 0.3px solid #abaaaa;
+//     width:90%;
+//     text-align:left;
+//     color:rgba(5, 64, 159, 0.9);
 
 
 
-}
+// }
 
 
-.pricing__cards h3{
-    font-size: 1.9rem;
-    font-weight:100;
+// .pricing__cards   h3{
+//     font-size: clamp(0.5rem, 2vw,3rem);
+//     font-weight:100;
+//        color:rgb(9, 255, 0);
+//     text-align: left;
+//     align-self: flex-start;
+//     margin: 0 0.3rem;
+//     @media (max-width:50rem){
+//         font-size:0.2rem;
+//     }
+
+// }
+
+// .pricing__cards-h3{
+//     color:red;
+//     text-align: left;
+//     align-self: flex-start;
+//     font-size: clamp(0.5rem, 2vw,1.5rem);
+//     margin-left:-2rem;
+// }
+
+
+// .pricing__cards p{
+//     font-size: 2rem;
+//     font-weight:300;
        
-    text-align: left;
-    align-self: flex-start;
-    margin: 0 1.2rem;
-
-}
-
-
-.pricing__cards p{
-    font-size: 2rem;
-    font-weight:300;
+//     margin: 0 1.2rem;
        
-    margin: 0 1.2rem;
-       
-    text-align:left;
+//     text-align:left;
 
        
-}
-.pricing__cards button{
-    padding:1rem 1.5rem;
+// }
+// .pricing__cards button{
+//     padding:1rem 1.5rem;
        
        
-    font-size:1.6rem;
-    background-color: rgba(5, 64, 159, 0.9);    ;
-    color:white;
-    border-radius:5px;
-    border:2px solid transparent;
-    align-self: center;
-    width:90%;
+//     font-size:1.6rem;
+//     background-color: rgba(5, 64, 159, 0.9);    ;
+//     color:white;
+//     border-radius:5px;
+//     border:2px solid transparent;
+//     align-self: center;
+//     width:90%;
        
-}
+// }
 
 
    

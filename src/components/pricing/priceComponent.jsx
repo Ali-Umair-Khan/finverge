@@ -12,7 +12,7 @@ const PricingComponent = ({features}) => {
                 <h2>{text}</h2>
                 <AnimatedLink title={price}/>
                 {qualities.map((q,i)=>(
-                    <h3 key={i} style={{display:'flex'}}><FontAwesomeIcon icon={faCheck}  style={{color:'grey',margin:'0.5rem', fontSize:'1.8rem'}}/><AnimatedLink title={q}/></h3>
+                    <div key={i} style={{display:'flex',alignItems:'center',gap:'0.4rem'}} className='qualities'><FontAwesomeIcon icon={faCheck}  style={{color:'grey',margin:'0.2rem', fontSize:'1.8rem'}}/><h3 className='pricing__cards-h3'><AnimatedLink title={q}/></h3></div>
                 ))}
                 <button><AnimatedLink title='Get Started'/></button>
             </div>

@@ -5,13 +5,13 @@ export const pricing = [
         type: 'Simple',
         text:'Keep track of your contacts, gain valuable insights, analyse live data and performance metrics.',
         price: 'Free *No credit card needed',
-        qualities: ['Real-Time Monitoring','Track key performance indicators','Schedule appointments','Organize, delegate and keep track of tasks']     
+        qualities: ['Real-Time Monitoring','Track key indicators','Schedule appointments','Organize, delegate and track']     
     },
     {
         type: 'Advanced',
         text:'Keep track of your contacts, gain valuable insights, analyse live data and performance metrics.',
         price: '$49 /month',
-        qualities: ['Everything from the free plan plus:', 'Data-driven decisions','Data visualization','Schedule appointments']      
+        qualities: ['Everything from the free plan:', 'Data-driven decisions','Data visualization','Schedule appointments']      
     }
 ]
 

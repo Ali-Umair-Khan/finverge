@@ -13,24 +13,16 @@
   .parallax-xe .scroller-xe {
     display: flex;
     white-space: nowrap;
-    display: flex;
     flex-wrap: nowrap;
-       
-       
   }
 
   .scroller-xe span {
     display: inline-block;
-    margin-right: 5rem;
-       
-       
-       
-    padding: 2rem;
-       
-    width:50vw;
-       
+    margin-right: 5rem;    
+    padding: 2rem;  
+    width:99vw; 
     @media (max-width:76rem){
-      width:99vw;
+      /* width:99vw; */
       height:auto;
       object-fit:cover;
     }
