@@ -78,8 +78,7 @@ section {
     object-fit:contain;
     @media (max-width: 50rem) {
       img {
-       object-fit: cover;
-
+       object-fit: fill;
       }
    }
   }
