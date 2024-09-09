@@ -49,15 +49,16 @@
         // font-size: 15rem; 
         line-height: 1.2;
         color:rgb(17, 29, 197);
-        text-align:justify;
+        // text-align:justify;
         // height:100%;
         margin: 0 6rem 0 0;
-        padding: 1rem 6.5rem 1rem 1rem;
+        padding: 1rem 1.5rem 1rem 1rem;
         font-size:clamp(5rem,12vw,12rem);
         width:100%;
         // hyphens:auto;
-        // white-space: nowrap; /* Prevent text from wrapping */
-        word-break: word-break; 
+        white-space: nowrap; /* Prevent text from wrapping */
+        // word-break: word-break; 
+        text-wrap:balance;
         
     }
 

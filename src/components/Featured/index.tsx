@@ -69,7 +69,12 @@ const Featured = () => {
             ) : (
               <Image src='/big_banner.png' alt="big_banner" fill />
             )} */}
-            <Image src='/startup-02.jpg' alt="big_banner" fill />
+            {/* <Image src='/startup-02.jpg' alt="big_banner" fill /> */}
+            <picture>
+               <source srcset="men-small.jpg" media="(max-width: 50rem)"/>
+               <source srcset="men-medium.jpg" media="(max-width: 76rem)"/>
+               <img src="men-large.jpg" alt="A responsive image"/>
+            </picture>
           </motion.div>
         </div>
         <h2>Featured and Seen in</h2>
