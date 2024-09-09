@@ -13,7 +13,7 @@ const Companies = () => {
                         <MaskText phrases={trust} tag='h1'/>
                     </div>
                     <div className='hero-comp-product'>
-                         <p>{product}</p>
+                          <p>{product}</p>
                     </div>
                     <MaskText phrases={need} tag='p'/>
         </div>
