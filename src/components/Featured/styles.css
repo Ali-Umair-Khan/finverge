@@ -68,17 +68,19 @@ section {
 
 .Div-fe {
   position: relative;
-  max-height: 90vh;
-  max-width: 90vw;
-  /* max-width:100%; */
-
+  height: clamp(70vh,80vw,90vh);
+  width: 90vw;
+  max-width:100%;
+  max-height:100%;
   img{
     width:100%;
     height:auto;
     object-fit:contain;
     @media (max-width: 50rem) {
       img {
-       object-fit: fill;
+       object-fit: contain;
+       /* width:35rem; */
+       /* height:auto; */
       }
    }
   }
